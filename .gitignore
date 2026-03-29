@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ML / Deep Learning extras
+
+# Datasets
+data/
+datasets/
+*.csv
+*.zip
+
+# Model weights
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Training outputs
+runs/
+outputs/
+checkpoints/
+
+# Logs
+logs/
+tensorboard/
